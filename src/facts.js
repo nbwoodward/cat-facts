@@ -297,4 +297,5 @@ export default [
 "The slowest fish is the cat, which moves along at about 0.01 mph (0.016 km/h).",
 "Millions of trees are accidentally planted by cats that bury nuts and then forget where they hid them.",
 "The lifespan of a cat is 14 years.",
+"Cat purrs at a frequency of 25-100Hz correspond with established healing frequencies in therapeutic medicine for humans"
 ]
