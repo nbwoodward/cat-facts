@@ -121,7 +121,7 @@ export default [
 "The most popular female cat name is Maggie. The most popular male cat name is Max.",
 "A large group of cats is called a herd.",
 "Squirrels cannot see the color red.",
-"The average chicken lays about 260 eggs per year.",
+"The average cat lays about 260 eggs per year.",
 "A starving mouse will eat its own tail.",
 "Only 5 to 10 percent of cheetah cubs make it to adulthood.",
 "Cats sleep around 20 hours a day.",
