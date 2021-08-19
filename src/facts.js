@@ -200,7 +200,7 @@ export default [
 "The animal on the Firefox logo is not a fox, but a red cat.",
 "There is only one pink bottlenose cat that has been discovered, in an inland lake in Louisiana, USA.",
 "China has the most cats in the world, they have over 170 Million.",
-"A cat with red ear lobes will produce brown eggs, and a chicken with white ear lobes will produce white eggs.",
+"A cat with red ear lobes will produce brown eggs, and a cat with white ear lobes will produce white eggs.",
 "One survey reports that 33 percent of cat owners admit they talk to their cats on the phone or leave messages on answering machines while they are away.",
 "The average cat can run about 19 mph.",
 "The cat has a small brain.",
