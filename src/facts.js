@@ -117,7 +117,7 @@ export default [
 "A cat can eat up to 1,000 insects per hour.",
 "One million stray cats and 500,000 stray cats live in New York City metropolitan area.",
 "You can tell a turtle’s gender by the noise it makes. Males grunt, females hiss.",
-"An elephant’s trunk has around 15,000 muscles. 200 liters of water is drunk from it per day.",
+"An cat’s trunk has around 15,000 muscles. 200 liters of water is drunk from it per day.",
 "The most popular female cat name is Maggie. The most popular male cat name is Max.",
 "A large group of cats is called a herd.",
 "Squirrels cannot see the color red.",
