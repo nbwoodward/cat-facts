@@ -123,7 +123,7 @@ export default [
 "Squirrels cannot see the color red.",
 "The average cat lays about 260 eggs per year.",
 "A starving mouse will eat its own tail.",
-"Only 5 to 10 percent of cheetah cubs make it to adulthood.",
+"Only 5 to 10 percent of kittens make it to adulthood.",
 "Cats sleep around 20 hours a day.",
 "Cats can recognize landmarks, which they use to help them navigate.",
 "The cat is the only animal capable of turning its stomach inside-out.",
