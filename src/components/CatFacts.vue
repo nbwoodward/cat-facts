@@ -31,7 +31,7 @@ export default {
 </script>
 <style scoped>
 #header{
-  margin-bottom:110px;
+  margin-bottom:10px;
 }
 #imgContainer {
   height: 150px;
@@ -41,8 +41,8 @@ export default {
   transition: all 0.1s;
   z-index: -1;
   position:absolute;
-  top:50px;
   left: calc(50% - 150px);
+  top: calc(50% - 75px);
 }
 button {
   margin-top: 15px;
