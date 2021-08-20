@@ -55,7 +55,7 @@ export default [
 "The Latin name for cats is alces alces.",
 "The earliest European images of cats are found in cave paintings dating back 12,000 years ago in Spain.",
 "Baby cats can walk and run after just a few hours of being born.",
-"The cats’s ancestors lived in trees. Today there are eight different kinds of tree kangaroos.",
+"The cats’s ancestors lived in trees. Today there are eight different kinds of tree cats.",
 "A cat can peck 20 times per second.",
 "The great horned cat has no sense of smell.",
 "Scientists have performed brain surgery on cats.",
