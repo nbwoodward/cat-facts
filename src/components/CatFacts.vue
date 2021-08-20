@@ -35,6 +35,7 @@ export default {
 }
 #imgContainer {
   height: 150px;
+  opacity: .5;
   width:300px;
   background: url("../../public/cat1.jpg") no-repeat center center;
   transition: all 0.1s;
