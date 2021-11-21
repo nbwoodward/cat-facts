@@ -317,4 +317,5 @@ export default [
 "The leg bones of a cat are so thin that no bat can walk.",
 "Cats can sleep standing up, but they can only dream lying down.",
 "Sea cats hold each other’s paws when they sleep so they don’t drift apart.",
+"Cats can memoriaze 120 commands but they don't want to",
 ]
