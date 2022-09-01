@@ -122,7 +122,6 @@ export default [
 "Cats sleep around 20 hours a day.",
 "Cats can recognize landmarks, which they use to help them navigate.",
 "The cat is the only animal capable of turning its stomach inside-out.",
-"Male cats will raise their legs while urinating to aim higher on a tree or lamppost because they want to leave a message that they are tall and intimidating. Some wild cats in Africa try to run up tree trunks while they are urinating to appear to be very large.",
 "Cats have been around longer than dinosaurs.",
 "About two-thirds of cat attacks on humans have taken place in water less than six feet deep.",
 "Cats are immune to cancer!",

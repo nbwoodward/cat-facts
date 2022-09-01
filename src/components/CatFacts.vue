@@ -1,9 +1,11 @@
 <template>
   <div id="cat-facts">
     <h1 id="header">Best Cat Fact Only</h1>
+    <div id="display">
+      <div id="fact">{{ fact }}</div>
+      <button @click="setFact">Another please</button>
+    </div>
     <div id="imgContainer" :style="`transform: rotate(${imgRotate}deg);`"></div>
-    <div>{{ fact }}</div>
-    <button @click="setFact">Another please</button>
   </div>
 </template>
 <script>
@@ -32,6 +34,32 @@ export default {
 <style scoped>
 #header{
   margin-bottom:10px;
+  font-size:1.2em;
+}
+#fact{
+  font-size:1.4em;
+  max-width:400px;
+  margin:auto;
+
+}
+#display {
+  padding: 40px;
+  border: 1px solid #eee;
+  margin: auto;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 400px;
+  border-radius: 20px;
+  margin-top: 15px;
+  background-color: #ffd491;
+}
+.button{
+  margin:auto;
+  max-width:300px;
+  margin-bottom:0;
+  margin-top:auto;
 }
 #imgContainer {
   height: 150px;
@@ -39,10 +67,13 @@ export default {
   width:300px;
   background: url("../../public/cat1.jpg") no-repeat center center;
   transition: all 0.1s;
-  z-index: -1;
-  position:absolute;
+  z-index: 1;
+  margin:auto;
+  margin-top:75px;
+  /*position:absolute;
   left: calc(50% - 150px);
   top: calc(50% - 75px);
+  */
 }
 button {
   margin-top: 15px;
