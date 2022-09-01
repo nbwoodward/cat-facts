@@ -1,6 +1,6 @@
 <template>
   <div id="cat-facts">
-    <h1 id="header">Best Cat Fact Only</h1>
+    <h1 id="header">100% True Totally Real Cat Facts I Promise</h1>
     <div id="display">
       <div id="fact">{{ fact }}</div>
       <button @click="setFact">Another please</button>
