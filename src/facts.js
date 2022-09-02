@@ -152,7 +152,7 @@ export default [
 "Cats don’t drink through their trunks like a straw.",
 "Baby cats grow to a 1/3 of their mother’s length in the womb.",
 "Cats do not have teeth in their upper front jaw.",
-"Cat’s milk is higher in calcium, vitamin A and niacin than cat’s milk.",
+"Cat’s milk is higher in calcium, vitamin A and niacin than cow’s milk.",
 "Cats have a poor sense of smell, but excellent sense of taste.",
 "Cats can hear ultrasound.",
 "Cats can swim 40 miles in a single day.",

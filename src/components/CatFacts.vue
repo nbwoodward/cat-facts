@@ -9,6 +9,11 @@
       <a @click="share">Share -&gt;</a>
       <div id="copied" v-if="showCopied">Link copied to clipboard!</div>
     </div>
+    <div id="others">
+      Other stupid stuff: <br/>
+      <a target="_blank" href="https://honeyflump.com">Honey Flump</a> <br/>
+      <a target="_blank" href="https://grannyflump.com">Granny Flump</a> <br/>
+    </div>
     <div id="imgContainer" :style="`transform: rotate(${imgRotate}deg);`"></div>
   </div>
 </template>
