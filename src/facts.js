@@ -249,7 +249,7 @@ export default [
 "A cat’s teeth never stop growing.",
 "Apiphobia is the fear of cats.",
 "The average cat eats one-third of its weight on food each day.",
-"Cats pupils of their eyes are rectangular.",
+"Cats pupils are rectangular.",
 "African cats only have four teeth to chew their food with.",
 "The scales of a cat are made of keratin, the same substance that hooves and fingernails are made of.",
 "Cats eat stones.",
