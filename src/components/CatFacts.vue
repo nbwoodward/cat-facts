@@ -5,6 +5,10 @@
       <div id="fact">{{ fact }}</div>
       <button @click="setFact">Another please</button>
     </div>
+    <div id="share">
+      <a @click="share">Share -&gt;</a>
+      <div id="copied" v-if="showCopied">Link copied to clipboard!</div>
+    </div>
     <div id="imgContainer" :style="`transform: rotate(${imgRotate}deg);`"></div>
   </div>
 </template>
@@ -16,18 +20,43 @@ export default {
   data() {
     return {
       imgRotate: 0,
-      fact: "",
+      showCopied: false,
     };
   },
   mounted() {
-    this.setFact();
+    if (!this.$route.params?.encoded){
+      this.setFact()
+    }
+  },
+  computed: {
+    fact() {
+      const idx = this.ston(this.$route.params?.encoded)
+      return facts[idx] || ""
+    }
   },
   methods: {
     setFact() {
       const rando = Math.floor(Math.random() * facts.length);
-      this.fact = facts[rando];
       this.imgRotate = Math.floor(Math.random() * 3000);
+      this.goToRoute(this.ntos(rando))
     },
+    goToRoute(encoded){
+      this.$router.push(`/${encoded}`)
+    },
+    async share() {
+      await navigator.clipboard.writeText(window.location.href);
+
+      this.showCopied = true;
+      setTimeout( () => {
+        this.showCopied = false;
+      }, 750)
+    },
+    ntos(num){
+      return num.toString(16)
+    },
+    ston(str){
+      return parseInt(str,16)
+    }
   },
 };
 </script>
@@ -60,6 +89,11 @@ export default {
   max-width:300px;
   margin-bottom:0;
   margin-top:auto;
+}
+#share a {
+  cursor: pointer;
+  display:block;
+  padding:5px 10px;
 }
 #imgContainer {
   height: 150px;

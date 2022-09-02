@@ -1,19 +1,8 @@
 <template>
   <div id="app">
-    <CatFacts />
+    <router-view/>
   </div>
 </template>
-
-<script>
-import CatFacts from './components/CatFacts.vue'
-
-export default {
-  name: 'App',
-  components: {
-    CatFacts
-  }
-}
-</script>
 
 <style>
 #app {
