@@ -53,7 +53,7 @@ export default {
   max-width: 400px;
   border-radius: 20px;
   margin-top: 15px;
-  background-color: #ffd491;
+  background-color: #8ad4d0;
 }
 .button{
   margin:auto;
