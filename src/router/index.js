@@ -1,8 +1,5 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+import { createMemoryHistory, createRouter } from 'vue-router'
 import CatFacts from '@/components/CatFacts.vue'
-
-Vue.use(VueRouter)
 
 const routes = [
   {
@@ -15,8 +12,8 @@ const routes = [
   },
 ]
 
-const router = new VueRouter({
-  mode: 'history',
+const router = createRouter({
+  history: createMemoryHistory(),
   base: process.env.BASE_URL,
   routes
 })
